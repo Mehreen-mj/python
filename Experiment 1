@@ -1,0 +1,31 @@
+try: 
+  print("---MARKS AND GRADE CALCULATOR---")
+
+  M1 = float(input("Enter the Marks of Maths = "))
+  M2 = float(input("Enter the Marks of Physics = "))
+  M3 = float(input("Enter the Marks of Chemistry = "))
+
+  total = M1+M2+M3
+  Percentage = total/3
+
+  if Percentage >=90:
+    grade = "A+"
+  elif Percentage >=75:
+    grade = "A"
+  elif Percentage >=60:
+    grade = "B"
+  elif Percentage >=50:
+    grade = "c"
+  elif Percentage >=40:
+    grade = "D"
+  else:
+    grade = "FAIL"
+    
+  print("****STUDENT REPORT****")
+  print(f"Total Marks = {total}")
+  print(f"Percentage = {Percentage}")
+  print(f"grade = {grade}")
+except Exception as e:
+    print
+finally:
+    input()
