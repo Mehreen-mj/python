@@ -1,0 +1,12 @@
+numbers = [5, 7, 89, 8, 9, 33, 44]
+
+print("original list : ",numbers)
+
+numbers.append(77)
+print("after append : ",numbers)
+
+numbers.remove(9)
+print("after remove : ",numbers)
+
+numbers.sort()
+print("after sort : ",numbers)
