@@ -1,0 +1,10 @@
+def simple_interest(p,r,t):
+    si = ( p* r * t)/100
+    return si
+
+p = float(input("enter principal amount : "))
+r = float(input("enter rate of interest (in % ) : "))
+t = float(input("enter the time (in years) : "))
+
+result = simple_interest(p,r,t)
+print("the simple interest is : ",result)
